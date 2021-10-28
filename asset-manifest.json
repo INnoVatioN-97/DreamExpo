@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DreamExpo/static/css/main.23263497.chunk.css",
-    "main.js": "/DreamExpo/static/js/main.616c94ef.chunk.js",
-    "main.js.map": "/DreamExpo/static/js/main.616c94ef.chunk.js.map",
+    "main.js": "/DreamExpo/static/js/main.7e8bb531.chunk.js",
+    "main.js.map": "/DreamExpo/static/js/main.7e8bb531.chunk.js.map",
     "runtime-main.js": "/DreamExpo/static/js/runtime-main.c14e1629.js",
     "runtime-main.js.map": "/DreamExpo/static/js/runtime-main.c14e1629.js.map",
     "static/js/2.2f9eac45.chunk.js": "/DreamExpo/static/js/2.2f9eac45.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.c14e1629.js",
     "static/js/2.2f9eac45.chunk.js",
     "static/css/main.23263497.chunk.css",
-    "static/js/main.616c94ef.chunk.js"
+    "static/js/main.7e8bb531.chunk.js"
   ]
 }
