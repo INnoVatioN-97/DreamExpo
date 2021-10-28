@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './CentralMonitoring.css';
 import YellowLight from './images/YellowLight.png';
 import GreenLight from './images/GreenLight.png';
 import RedLight from './images/RedLight.png';
