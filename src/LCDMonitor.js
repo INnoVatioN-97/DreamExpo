@@ -10,7 +10,7 @@ import Icon from '@mdi/react';
 
 const LCDMonitor = () => {
     const [nowTime, setNowTime] = useState('0000-00-00 00:00:00');
-    const [uvSwitchColor, setUvSwitchColor] = useState('#1e272e');
+    const [uvSwitchColor, setUvSwitchColor] = useState('grey');
     const [toggleSW, setToggleSW] = useState(false);
     const [text, setText] = useState('OFF');
     //current Time
@@ -19,12 +19,19 @@ const LCDMonitor = () => {
     }, []);
 
     const switchUV = () => {
-        console.log('눌림!');
-        const color = toggleSW ? 'teal' : '#1e272e';
-        const str = toggleSW ? 'ON' : 'OFF';
-        setToggleSW(!toggleSW);
+        // console.log('눌림!');
+        let color;
+        let str;
+        if (toggleSW) {
+            color = 'white';
+            str = 'ON';
+        } else {
+            color = 'grey';
+            str = 'OFF';
+        }
         setUvSwitchColor(color);
         setText(str);
+        setToggleSW(!toggleSW);
     };
 
     return (
@@ -63,7 +70,6 @@ const LCDMonitor = () => {
                             flexDirection: 'column',
                             // backgroundColor: uvSwitchColor,
                             backgroundColor: '#1e272e',
-
                             justifyContent: 'center',
                             verticalAlign: 'middle',
                             // height: '100%',
@@ -72,7 +78,7 @@ const LCDMonitor = () => {
                     >
                         {/* <button style={{ border: 'none', color: 'transparent', backgroundColor: uvSwitchColor }} onClick={() => switchUV}> */}
                         <p>
-                            <Icon path={uvLamp} size={'13vw'} color={toggleSW ? 'grey' : 'white'} />
+                            <Icon path={uvLamp} size={'13vw'} color={uvSwitchColor} />
                         </p>
                         UV 살균 기능 켜기 {text} 상태
                         {/* </button> */}
@@ -104,7 +110,7 @@ const LCDMonitor = () => {
             </div>
             <div className="footerScreen">
                 <span>ver 0.0.1</span>
-                <span>Developing Screen</span>
+                <span>dev screen</span>
                 <span>copyrightⓒ 2021 All rights reserved by Zero5</span>
             </div>
         </div>
