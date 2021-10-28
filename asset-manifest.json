@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/DreamExpo/static/css/main.23263497.chunk.css",
+    "main.js": "/DreamExpo/static/js/main.616c94ef.chunk.js",
+    "main.js.map": "/DreamExpo/static/js/main.616c94ef.chunk.js.map",
+    "runtime-main.js": "/DreamExpo/static/js/runtime-main.c14e1629.js",
+    "runtime-main.js.map": "/DreamExpo/static/js/runtime-main.c14e1629.js.map",
+    "static/js/2.2f9eac45.chunk.js": "/DreamExpo/static/js/2.2f9eac45.chunk.js",
+    "static/js/2.2f9eac45.chunk.js.map": "/DreamExpo/static/js/2.2f9eac45.chunk.js.map",
+    "static/js/3.5db1a681.chunk.js": "/DreamExpo/static/js/3.5db1a681.chunk.js",
+    "static/js/3.5db1a681.chunk.js.map": "/DreamExpo/static/js/3.5db1a681.chunk.js.map",
+    "index.html": "/DreamExpo/index.html",
+    "static/css/main.23263497.chunk.css.map": "/DreamExpo/static/css/main.23263497.chunk.css.map",
+    "static/js/2.2f9eac45.chunk.js.LICENSE.txt": "/DreamExpo/static/js/2.2f9eac45.chunk.js.LICENSE.txt",
+    "static/media/GreenLight.a5688d20.png": "/DreamExpo/static/media/GreenLight.a5688d20.png",
+    "static/media/RedLight.96ccddc7.png": "/DreamExpo/static/media/RedLight.96ccddc7.png",
+    "static/media/YellowLight.c1077b97.png": "/DreamExpo/static/media/YellowLight.c1077b97.png",
+    "static/media/ZERO5_LOGO.670483af.jpg": "/DreamExpo/static/media/ZERO5_LOGO.670483af.jpg",
+    "static/media/logo.6ce24c58.svg": "/DreamExpo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c14e1629.js",
+    "static/js/2.2f9eac45.chunk.js",
+    "static/css/main.23263497.chunk.css",
+    "static/js/main.616c94ef.chunk.js"
+  ]
+}
