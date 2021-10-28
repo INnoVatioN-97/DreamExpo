@@ -38,8 +38,14 @@
 }
 
 .container {
-    background-color: #a4b0be;
-    margin: auto;
+    background-color: #2f3640;
+    margin: 5% 10% auto 10%;
     text-align: center;
-    /* color: white; */
+    border-radius: 20px;
+    padding: 2%;
+    color: #dcdde1;
+}
+.trafficIcon {
+    width: 5vw;
+    height: 5vw;
 }

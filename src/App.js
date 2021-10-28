@@ -1,13 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import AppRouter from './Router';
+import React from 'react';
 // import
 
 const App = () => {
-    return (
-        <div className="container">
-            <h2>선택하기</h2>
-        </div>
-    );
+    return <AppRouter />;
 };
 
 export default App;
